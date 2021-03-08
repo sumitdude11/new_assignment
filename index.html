@@ -5,11 +5,11 @@
     <title>Fashion-Beauty</title>
     <!-- <link rel="stylesheet" href="{{ url_for('static',filename='cs/css1.css')}}" > -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.112.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,7 +24,7 @@
 <div class="container-fluid">
     <div class="row">
     <p align="center">
-    <img src="image/logo.jpg" width="100%" height="500px" >
+    <img src="logo.jpg" width="100%" height="500px" >
     </p>
     </div>
 </div>
@@ -34,13 +34,53 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-7"></div>
-        <div class="col-sm-5">
-            <form class="navbar-form navbar-left">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
+      <div class="col-sm-3"></div>
+        <div class="col-sm-3">
+          <p left-margin="40%">
+          <img class="rounded-circle" src="logo3.png" width="180" height="80"  alt="music">
+          </p>
+        </div>
+        <div class="col-sm-3">
+           <h3>Select Category</h3>
+        </div>
+        <div class="col-sm-3">
+          <br>
+            <div class="dropdown" >
+              <button type="button" class="btn btn-sucess dropdown-toggle" data-toggle="dropdown" id="m1">Books</button>
+              
+              <div class="dropdown-menu" data-spy="scroll" data-target="#m1" data-offset="1" >
+                <a class="dropdown-item" href="health.html">Health</a>
+                <a class="dropdown-item" href="movies.html">Movies</a>
+                <a class="dropdown-item" href="beauty.html">Beauty</a>
+                <a class="dropdown-item" href="sports.html">Sports</a>
+                <a class="dropdown-item" href="grocery.html">Grocery</a>
+                <a class="dropdown-item" href="jwellery.html">Jwellery</a>
+                <a class="dropdown-item" href="shoes.html">Shoes</a>
+                <a class="dropdown-item" href="home.html">Home</a>
+                <a class="dropdown-item" href="kids.html">Kids</a>
+                <a class="dropdown-item" href="tools.html">Tools</a>
+                <a class="dropdown-item" href="music.html">Music</a>
+                <a class="dropdown-item" href="games.html">Games</a>
+                <a class="dropdown-item" href="toys.html">Toys</a>
+                <a class="dropdown-item" href="computers.html">Computers</a>
+                <a class="dropdown-item" href="automotives.html">Automotive</a>
+                <a class="dropdown-item" href="baby.html">Baby</a>
+                <a class="dropdown-item" href="outdoors.html">Outdoors</a>
+                <a class="dropdown-item" href="books.html">Books</a>
+                <a class="dropdown-item" href="clothing.html">Clothing</a>
+                <a class="dropdown-item" href="electronics.html">Electronics</a>
+                <a class="dropdown-item" href="garden.html">Garden</a>
+                <a class="dropdown-item" href="industrial.html">Industrial</a>
+                
+
+
+
+
+
+
+              </div>
             </div>
-            </form>
+          
         </div>
     </div>
 </div>
@@ -66,22 +106,22 @@
                     <div class="item active">
                         <div class="row">
                         <div class="col-sm-2">    
-                        <img class="rounded-circle" src="image/music.jpg" width="180" height="120"  alt="music">
+                        <img class="rounded-circle" src="music.jpg" width="180" height="120"  alt="music">
                         </div>
                         <div class="col-sm-2">
-                        <img class="rounded-circle" src="image/games.png" width="180" height="120" alt="garden">
+                        <img class="rounded-circle" src="games.png" width="180" height="120" alt="garden">
                         </div>
                         <div class="col-sm-2">
-                        <img class="rounded-circle" src="image/cloth.jpg" width="180" height="120"  alt="industrial">
+                        <img class="rounded-circle" src="cloth.jpg" width="180" height="120"  alt="industrial">
                         </div>
                         <div class="col-sm-2">
-                        <img class="rounded-circle" src="image/books.png" width="180" height="120" alt="industrial">
+                        <img class="rounded-circle" src="books.png" width="180" height="120" alt="industrial">
                         </div>
                         <div class="col-sm-2">
-                        <img class="rounded-circle" src="image/movies.jpg" width="180" height="120" alt="industrial">
+                        <img class="rounded-circle" src="movies.jpg" width="180" height="120" alt="industrial">
                         </div>
                         <div class="col-sm-2">
-                        <img class="rounded-circle" src="image/jwellery.jpg" width="180" height="120" alt="industrial">
+                        <img class="rounded-circle" src="jwellery.jpg" width="180" height="120" alt="industrial">
                         </div>
                       </div>
                     </div>
@@ -89,35 +129,35 @@
                     <div class="item">
                         <div class="row">
                         <div class="col-sm-2">
-                            <img class="rounded-circle" src="image/outdoor.jpg" width="180" height="120" alt="industrial">
+                            <img class="rounded-circle" src="outdoor.jpg" width="180" height="120" alt="industrial">
                          </div>
                          <div class="col-sm-2">
-                             <img class="rounded-circle" src="image/automotive.jpg" width="180" height="120"  alt="industrial">
+                             <img class="rounded-circle" src="automotive.jpg" width="180" height="120"  alt="industrial">
                           </div>
                           <div class="col-sm-2">
-                            <img class="rounded-circle" src="image/health.jpg" width="180" height="120"  alt="industrial">
+                            <img class="rounded-circle" src="health.jpg" width="180" height="120"  alt="industrial">
                          </div>
                          <div class="col-sm-2">
-                             <img class="rounded-circle" src="image/grocery.jpg" width="180" height="120" alt="industrial">
+                             <img class="rounded-circle" src="grocery.jpg" width="180" height="120" alt="industrial">
                           </div>
                           <div class="col-sm-2">
-                            <img class="rounded-circle" src="image/sports.jpg" width="180" height="120"  alt="industrial">
+                            <img class="rounded-circle" src="sports.jpg" width="180" height="120"  alt="industrial">
                          </div>
                          <div class="col-sm-2">
-                             <img class="rounded-circle" src="image/toys.jpg" width="180" height="120" alt="industrial">
+                             <img class="rounded-circle" src="toys.jpg" width="180" height="120" alt="industrial">
                           </div>
                        </div>   
                     </div>
                     <div class ="item">
                       <div class="row">
                         <div class="col-sm-4">
-                            <img class="rounded-circle" src="image/beauty.jpg" width="180" height="120" alt="industrial">
+                            <img class="rounded-circle" src="beauty.jpg" width="180" height="120" alt="industrial">
                          </div>
                          <div class="col-sm-4">
-                             <img class="rounded-circle" src="image/shoes.jpg" width="180" height="120" alt="industrial">
+                             <img class="rounded-circle" src="shoes.jpg" width="180" height="120" alt="industrial">
                           </div>
                           <div class="col-sm-4">
-                            <img class="rounded-circle" src="image/electronics.jpg" width="180" height="120" alt="industrial">
+                            <img class="rounded-circle" src="electronics.jpg" width="180" height="120" alt="industrial">
                          </div>
                       </div>
                     </div>
